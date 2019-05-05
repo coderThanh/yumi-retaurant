@@ -1,0 +1,173 @@
+:root {
+    /* Title font-family */
+    /* font-family: 'Open Sans', sans-serif; */
+
+    /* Context font-family */
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+/* Resuable===================== */
+.after-none::after{
+    display: none!important;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.placeholder-color-white::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+  
+.placeholder-color-white:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+}
+  
+.placeholder-color-white::-ms-input-placeholder { /* Microsoft Edge */
+   color: white;
+}
+
+
+
+/* Navigation-bar========================== */
+.menu-hover{
+    transition: 0.3s;
+}
+
+.menu-hover:hover{
+    border-bottom: #ffa037 3px solid;
+}
+
+.nav-logo, .nav-content {
+    z-index: 10;
+}
+
+.nav-search {
+    z-index: 1050;
+    transition: 0.3s;
+}
+
+.bg-slide-over{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.slide-content{
+    position: absolute;
+    right: 15%;
+    bottom: 40%;
+    left: 15%;
+    z-index: 2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.slide-item {
+    height: 700px;
+    background-image: url('../image/1200px-CreoleFood.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;    
+}
+
+.btn-silde {
+    background-color: #ffa037;
+    padding: 0.8rem 1.5rem;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.btn-silde-light{
+    padding: 0.8rem 1.5rem;
+    border: #fff 2px solid;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.btn-silde:hover, .btn-silde-light:hover{
+    text-decoration: none;
+    color: #fff;
+    transform: scale(1.1)
+}
+
+.click:active{
+    transform: scale(0.9);
+}
+
+
+/*=============== Menu food================= */
+.menu-food-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 550;
+}
+
+.menu-food-text-muted {
+    color: #ffa037;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2rem;
+}
+
+.nav-food {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.card-img {
+    width: 70px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* =============== Gallery ===================== */
+.gallery-bg {
+    background-color: #f2f2f2;
+}
+
+/* =============== Booking a Table =============== */
+.booking {
+    background-image: url('../image/84986945-set-of-simple-breakfast-food-line-art-icons-on-black-background.jpg');
+    background-position: 0% 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.book-tab {
+    background-color: #ffa037;
+}
+
+.book-tab .menu-food-title, .book-tab .menu-food-text-muted {
+    color: #fff;
+}
+
+.book-item {
+    height: 40px;
+    padding: 10px 10px;
+}
+
+.book-submit {
+    background-color: inherit;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+

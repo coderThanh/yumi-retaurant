@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Yumi Restaurant</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    <!-- Links by Self -->
+    <link rel="stylesheet" href="./public/css/styles.css">
+  </head>
+  <body>
+    <div class="navigation">
+      <div class="container-fluid mb-5 p-0 ">
+        <div class="row ">
+          <div class="navigation-web d-flex w-100 position-absolute mt-4">
+            <div class="nav-logo col-3">
+                <a class="navbar-brand float-right" href="#">
+                    <img src="./public/image/logo01.png" alt="logo">
+                  </a>
+            </div>
+            <div class="nav-content col-8">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                    <div class="collapse navbar-collapse font-weight-bold justify-content-center " id="navbarSupportedContent">
+                        <ul class="navbar-nav justify-content-around w-75">
+                          <li class="nav-item mr-lg-3">
+                            <a class="nav-link text-light menu-hover" href="#">HOME </a>
+                          </li>
+                          <li class="nav-item dropdown menu-hover mr-lg-3">
+                            <a class="nav-link dropdown-toggle after-none text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              MENUS
+                            </a>
+                            <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item text-muted font-weight-500" href="#">Menu 1</a>
+                              <a class="dropdown-item text-muted font-weight-500" href="#">Menu 2</a>
+                              <a class="dropdown-item text-muted font-weight-500" href="#">Menu 3</a>
+                              <a class="dropdown-item text-muted font-weight-500" href="#">Menu 4</a>
+                              <a class="dropdown-item text-muted font-weight-500" href="#">Menu 5</a>
+                            </div>
+                          </li>
+                          <li class="nav-item dropdown menu-hover mr-lg-3">
+                            <a class="nav-link text-light dropdown-toggle after-none" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              FEATURED
+                            </a>
+                            <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item text-muted font-weight-500" href="#">Gallery 1</a>
+                              <a class="dropdown-item text-muted font-weight-500" href="#">Gallery 2</a>
+                            </div>
+                          </li>
+                          <li class="nav-item dropdown menu-hover mr-lg-3">
+                            <a class="nav-link text-light dropdown-toggle after-none" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              RESERVATION
+                            </a>
+                            <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item text-muted font-weight-500" href="#">Reservation 1</a>
+                              <a class="dropdown-item text-muted font-weight-500" href="#">Reservation 2</a>
+                              <a class="dropdown-item text-muted font-weight-500" href="#">Reservation 3</a>
+                            </div>
+                          </li>
+                          <li class="nav-item menu-hover mr-lg-3">
+                            <a class="nav-link text-light" href="#">ABOUT </a>
+                          </li>
+                          <li class="nav-item menu-hover mr-lg-3">
+                            <a class="nav-link text-light" href="#">BLOG </a>
+                          </li>
+                          <li class="nav-item menu-hover">
+                            <a class="nav-link text-light" href="#">CONTACT </a>
+                          </li>
+                        </ul>
+        
+                    </div>
+                </nav> 
+            </div>
+            <div class="nav-search  col-1 d-flex align-items-start justify-content-center mt-2 ">
+                <!-- Button trigger modal -->
+              <button type="button" class="btn text-light click" data-toggle="modal" data-target="#exampleModal">
+                  <i class="fas fa-search fa-lg"></i>
+              </button>
+                <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog " role="document">
+                  <div class="modal-content  bg-transparent border-0 text-light mt-5">
+                    <div class="modal-body border-bottom p-0 mt-5">
+                      <form class="d-flex justify-content-center my-2 my-lg-0">
+                          <input class="bg-transparent border-0 mr-sm-2 w-100 placeholder-color-white text-light" type="search" placeholder="Search...">
+                          <button type="submit" class="btn text-light ml-auto" data-toggle="modal" data-target="#exampleModal">
+                              <i class="fas fa-search"></i>
+                          </button>
+                        </form>
+                    </div>
+                  </div>
+                </div>
+              </div>               
+            </div>          
+          </div>
+          <div class="head-slide w-100 h-100 position-relative">
+              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="slide-item">
+                      <div class="slide-content">
+                          <P class="display-3 font-weight-bold mb-5">WE LOVE DELICIOUS</P>
+                          <div class="d-flex justify-content-center">
+                            <a href="#" class="btn-silde mr-5 click">VIEW MENU</a>
+                            <a href="#" class="btn-silde-light click">BOOK A TABLE</a>
+                          </div>
+                      </div>
+                      <div class="bg-slide-over"></div>                      
+                    </div>
+                  </div>
+                  <div class="carousel-item ">
+                    <div class="slide-item">
+                      <div class="slide-content">
+                          <P class="display-3 font-weight-bold mb-5">WE LOVE DELICIOUS</P>
+                          <div class="d-flex justify-content-center">
+                            <a href="#" class="btn-silde mr-5 click">VIEW MENU</a>
+                            <a href="#" class="btn-silde-light click">BOOK A TABLE</a>
+                          </div>
+                      </div>
+                      <div class="bg-slide-over"></div>                      
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <i class="fas fa-chevron-left fa-3x"></i>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <i class="fas fa-chevron-right fa-3x"></i>
+                </a>
+              </div> 
+          </div>
+ 
+        </div>
+
+          
+      </div>
+    </div>
+    <div class="menu-food">
+      <div class="container mb-5">
+        <div class="d-flex flex-wrap align-items-center justify-content-center">
+          <div class="section-title text-center">  
+            <p class="menu-food-title m-0 col-12 text-center"> Our Menu</p>
+            <p class="menu-food-text-muted mb-4">Today is a Special Day</p>
+          </div>
+          <div class="tab-foo col-12  d-flex flex-wrap align-items-center justify-content-center">
+            <div class="nav-food col-8 mb-5 d-flex flex-wrap  justify-content-center">
+                <ul class="nav  d-flex font-weight-500 justify-content-around" id="pills-tab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active text-secondary" id="pills-salad-tab" data-toggle="pill" href="#pills-salad" role="tab" aria-controls="pills-salad" aria-selected="true">Salad</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-secondary" id="pills-steak-tab" data-toggle="pill" href="#pills-steak" role="tab" aria-controls="pills-steak" aria-selected="false">Steak</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-secondary" id="pills-potato-tab" data-toggle="pill" href="#pills-potato" role="tab" aria-controls="pills-potato" aria-selected="false">Potato</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-secondary" id="pills-pizza-tab" data-toggle="pill" href="#pills-pizza" role="tab" aria-controls="pills-pizza" aria-selected="false">Pizza</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-secondary" id="pills-drink-tab" data-toggle="pill" href="#pills-drink" role="tab" aria-controls="pills-drink" aria-selected="false">Drink</a>
+                  </li>
+                </ul>
+            </div>
+            <div class="col-12 pb-5">
+              <div class="d-flex flex-wrap align-items-center justify-content-center">
+                <div class="tab-content w-100" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-salad" role="tabpanel" aria-labelledby="pills-salad-tab">
+                    <div class="row ">
+                      <div class="col-6 col-md-3 text-center">
+                          <div class="card">
+                            <div class="card-img-top p-3">
+                                <img src="./public/image/gallery-02.jpg" class="card-img-top card-img" alt="...">
+                            </div>
+                            <div class="card-body py-0">
+                              <h5 class="card-title ">Card title</h5>
+                              <p class="card-text small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <p class="text-muted">$ 15</p>
+                            </div>
+                          </div>
+                      </div>                    
+                      <div class="col-6 col-md-3 text-center">
+                          <div class="card">
+                            <div class="card-img-top p-3">
+                                <img src="./public/image/gallery-02.jpg" class="card-img-top card-img" alt="...">
+                            </div>
+                            <div class="card-body py-0">
+                              <h5 class="card-title ">Card title</h5>
+                              <p class="card-text small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <p class="text-muted">$ 15</p>
+                            </div>
+                          </div>
+                      </div>                    
+                      <div class="col-6 col-md-3 text-center">
+                          <div class="card">
+                            <div class="card-img-top p-3">
+                                <img src="./public/image/gallery-02.jpg" class="card-img-top card-img" alt="...">
+                            </div>
+                            <div class="card-body py-0">
+                              <h5 class="card-title ">Card title</h5>
+                              <p class="card-text small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <p class="text-muted">$ 15</p>
+                            </div>
+                          </div>
+                      </div>                    
+                      <div class="col-6 col-md-3 text-center">
+                          <div class="card">
+                            <div class="card-img-top p-3">
+                                <img src="./public/image/gallery-02.jpg" class="card-img-top card-img" alt="...">
+                            </div>
+                            <div class="card-body py-0">
+                              <h5 class="card-title ">Card title</h5>
+                              <p class="card-text small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <p class="text-muted">$ 15</p>
+                            </div>
+                          </div>
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="tab-pane fade" id="pills-steak" role="tabpanel" aria-labelledby="pills-steak-tab">
+                    <div class="tab-pane-content row ">
+                      <div class="col-6 col-md-3 text-center">
+                          <div class="card">
+                            <div class="card-img-top p-3">
+                                <img src="./public/image/gallery-02.jpg" class="card-img-top card-img" alt="...">
+                            </div>
+                            <div class="card-body py-0">
+                              <h5 class="card-title ">Card title</h5>
+                              <p class="card-text small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <p class="text-muted">$ 15</p>
+                            </div>
+                          </div>
+                      </div>                    
+                      <div class="col-6 col-md-3 text-center">
+                          <div class="card">
+                            <div class="card-img-top p-3">
+                                <img src="./public/image/gallery-02.jpg" class="card-img-top card-img" alt="...">
+                            </div>
+                            <div class="card-body py-0">
+                              <h5 class="card-title ">Card title</h5>
+                              <p class="card-text small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <p class="text-muted">$ 15</p>
+                            </div>
+                          </div>
+                      </div>                    
+                      <div class="col-6 col-md-3 text-center">
+                          <div class="card">
+                            <div class="card-img-top p-3">
+                                <img src="./public/image/gallery-02.jpg" class="card-img-top card-img" alt="...">
+                            </div>
+                            <div class="card-body py-0">
+                              <h5 class="card-title ">Card title</h5>
+                              <p class="card-text small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <p class="text-muted">$ 15</p>
+                            </div>
+                          </div>
+                      </div>                    
+                      <div class="col-6 col-md-3 text-center">
+                          <div class="card">
+                            <div class="card-img-top p-3">
+                                <img src="./public/image/gallery-02.jpg" class="card-img-top card-img" alt="...">
+                            </div>
+                            <div class="card-body py-0">
+                              <h5 class="card-title ">Card title</h5>
+                              <p class="card-text small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <p class="text-muted">$ 15</p>
+                            </div>
+                          </div>
+                      </div>
+                    </div>                   
+                  </div>
+                  <div class="tab-pane fade" id="pills-potato" role="tabpanel" aria-labelledby="pills-potato-tab">
+                    <div class="tab-pane-content row ">
+                      <div class="col-6 col-md-3 text-center">
+                          <div class="card">
+                            <div class="card-img-top p-3">
+                                <img src="./public/image/gallery-02.jpg" class="card-img-top card-img" alt="...">
+                            </div>
+                            <div class="card-body py-0">
+                              <h5 class="card-title ">Card title</h5>
+                              <p class="card-text small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <p class="text-muted">$ 15</p>
+                            </div>
+                          </div>
+                      </div>                    
+                      <div class="col-6 col-md-3 text-center">
+                          <div class="card">
+                            <div class="card-img-top p-3">
+                                <img src="./public/image/gallery-02.jpg" class="card-img-top card-img" alt="...">
+                            </div>
+                            <div class="card-body py-0">
+                              <h5 class="card-title ">Card title</h5>
+                              <p class="card-text small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <p class="text-muted">$ 15</p>
+                            </div>
+                          </div>
+                      </div>                    
+                      <div class="col-6 col-md-3 text-center">
+                          <div class="card">
+                            <div class="card-img-top p-3">
+                                <img src="./public/image/gallery-02.jpg" class="card-img-top card-img" alt="...">
+                            </div>
+                            <div class="card-body py-0">
+                              <h5 class="card-title ">Card title</h5>
+                              <p class="card-text small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <p class="text-muted">$ 15</p>
+                            </div>
+                          </div>
+                      </div>                    
+                      <div class="col-6 col-md-3 text-center">
+                          <div class="card">
+                            <div class="card-img-top p-3">
+                                <img src="./public/image/gallery-02.jpg" class="card-img-top card-img" alt="...">
+                            </div>
+                            <div class="card-body py-0">
+                              <h5 class="card-title ">Card title</h5>
+                              <p class="card-text small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <p class="text-muted">$ 15</p>
+                            </div>
+                          </div>
+                      </div>
+                    </div>                     
+                  </div>
+                  <div class="tab-pane fade" id="pills-pizza" role="tabpanel" aria-labelledby="pills-pizza-tab">
+                    <div class="tab-pane-content row ">
+                      <div class="col-6 col-md-3 text-center">
+                          <div class="card">
+                            <div class="card-img-top p-3">
+                                <img src="./public/image/gallery-02.jpg" class="card-img-top card-img" alt="...">
+                            </div>
+                            <div class="card-body py-0">
+                              <h5 class="card-title ">Card title</h5>
+                              <p class="card-text small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <p class="text-muted">$ 15</p>
+                            </div>
+                          </div>
+                      </div>                    
+                      <div class="col-6 col-md-3 text-center">
+                          <div class="card">
+                            <div class="card-img-top p-3">
+                                <img src="./public/image/gallery-02.jpg" class="card-img-top card-img" alt="...">
+                            </div>
+                            <div class="card-body py-0">
+                              <h5 class="card-title ">Card title</h5>
+                              <p class="card-text small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <p class="text-muted">$ 15</p>
+                            </div>
+                          </div>
+                      </div>                    
+                      <div class="col-6 col-md-3 text-center">
+                          <div class="card">
+                            <div class="card-img-top p-3">
+                                <img src="./public/image/gallery-02.jpg" class="card-img-top card-img" alt="...">
+                            </div>
+                            <div class="card-body py-0">
+                              <h5 class="card-title ">Card title</h5>
+                              <p class="card-text small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <p class="text-muted">$ 15</p>
+                            </div>
+                          </div>
+                      </div>                    
+                      <div class="col-6 col-md-3 text-center">
+                          <div class="card">
+                            <div class="card-img-top p-3">
+                                <img src="./public/image/gallery-02.jpg" class="card-img-top card-img" alt="...">
+                            </div>
+                            <div class="card-body py-0">
+                              <h5 class="card-title ">Card title</h5>
+                              <p class="card-text small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <p class="text-muted">$ 15</p>
+                            </div>
+                          </div>
+                      </div>
+                    </div>                     
+                  </div>
+                  <div class="tab-pane fade" id="pills-drink" role="tabpanel" aria-labelledby="pills-drink-tab">
+                    <div class="tab-pane-content row ">
+                      <div class="col-6 col-md-3 text-center">
+                          <div class="card">
+                            <div class="card-img-top p-3">
+                                <img src="./public/image/gallery-02.jpg" class="card-img-top card-img" alt="...">
+                            </div>
+                            <div class="card-body py-0">
+                              <h5 class="card-title ">Card title</h5>
+                              <p class="card-text small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <p class="text-muted">$ 15</p>
+                            </div>
+                          </div>
+                      </div>                    
+                      <div class="col-6 col-md-3 text-center">
+                          <div class="card">
+                            <div class="card-img-top p-3">
+                                <img src="./public/image/gallery-02.jpg" class="card-img-top card-img" alt="...">
+                            </div>
+                            <div class="card-body py-0">
+                              <h5 class="card-title ">Card title</h5>
+                              <p class="card-text small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <p class="text-muted">$ 15</p>
+                            </div>
+                          </div>
+                      </div>                    
+                      <div class="col-6 col-md-3 text-center">
+                          <div class="card">
+                            <div class="card-img-top p-3">
+                                <img src="./public/image/gallery-02.jpg" class="card-img-top card-img" alt="...">
+                            </div>
+                            <div class="card-body py-0">
+                              <h5 class="card-title ">Card title</h5>
+                              <p class="card-text small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <p class="text-muted">$ 15</p>
+                            </div>
+                          </div>
+                      </div>                    
+                      <div class="col-6 col-md-3 text-center">
+                          <div class="card">
+                            <div class="card-img-top p-3">
+                                <img src="./public/image/gallery-02.jpg" class="card-img-top card-img" alt="...">
+                            </div>
+                            <div class="card-body py-0">
+                              <h5 class="card-title ">Card title</h5>
+                              <p class="card-text small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <p class="text-muted">$ 15</p>
+                            </div>
+                          </div>
+                      </div>
+                    </div>                     
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gallery">
+      <div class="gallery-bg container-fluid pb-5">
+        <div class="section-title text-center pt-5 pb-1 mb-4">  
+          <p class="menu-food-title m-0 col-12 text-center "> Gallery</p>
+          <p class="menu-food-text-muted">Sweet & Perfect</p>
+        </div>  
+        <div class="gallery-content container pb-5">
+            <div id="cp_widget_96480b26-c507-4765-a0b7-945182700d8a">...</div><script type="text/javascript">
+              var cpo = []; cpo["_object"] ="cp_widget_96480b26-c507-4765-a0b7-945182700d8a"; cpo["_fid"] = "AUOAFf-19XRI";
+              var _cpmp = _cpmp || []; _cpmp.push(cpo);
+              (function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+              cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
+              var c = document.getElementsByTagName("script")[0];
+              c.parentNode.insertBefore(cp, c); })(); </script>
+        </div>      
+      </div>
+    </div>
+    <div class="booking pb-5">
+      <div class="container-fluid d-flex justify-content-center px-0 pb-5">
+        <div class="book-tab col-10 col-md-8 col-lg-5 pb-5">
+          <div class="section-title text-center pt-5 pb-1 mb-4">  
+            <p class="menu-food-title m-0 col-12 text-center "> Book A Table</p>
+            <p class="menu-food-text-muted">Try & Feel</p>
+          </div>
+          <form action="#"  >
+            <div class="d-flex flex-wrap justify-contet-between">
+              <div class="col-6  mb-4">
+                  <select name="people" id="people-number" class="book-item w-100  text-muted border-0  small">
+                    <option value="1" class="w-100 p-2"> 1 People</option>
+                    <option value="2" class="w-100 p-2"> 2 People</option>
+                    <option value="3" class="w-100 p-2"> 3 People</option>
+                    <option value="4" class="w-100 p-2"> 4 People</option>
+                    <option value="5" class="w-100 p-2"> 5 People</option>
+                    <option value="6" class="w-100 p-2"> 6 People</option>
+                    <option value="7" class="w-100 p-2"> 7 People</option>
+                    <option value="8" class="w-100 p-2"> 8 People</option>
+                    <option value="9" class="w-100 p-2"> 9 People</option>
+                  </select>
+              </div>
+              <div class="col-6  ">
+                  <input type="date" class="book-item border-0 w-100 text-muted small">
+              </div> 
+              <div class="col-6  ">
+                  <select name="people" id="people-number" class="w-100 book-item  text-muted border-0  small">
+                    <option value="9:00" class="w-100 p-2"> 9:00</option>
+                    <option value="9:30" class="w-100 p-2"> 9:30</option>
+                    <option value="10:00" class="w-100 p-2"> 10:00</option>
+                    <option value="10:30" class="w-100 p-2"> 10:30</option>
+                    <option value="11:00" class="w-100 p-2"> 11:00</option>
+                    <option value="11:30" class="w-100 p-2"> 11:30</option>
+                    <option value="12:00" class="w-100 p-2"> 12:00</option>
+                    <option value="12:30" class="w-100 p-2"> 12:30</option>
+                    <option value="13:00" class="w-100 p-2"> 13:00</option>
+                    <option value="13:30" class="w-100 p-2"> 13:30</option>
+                    <option value="14:00" class="w-100 p-2"> 14:00</option>
+                    <option value="14:30" class="w-100 p-2"> 14:30</option>
+                    <option value="15:00" class="w-100 p-2"> 15:00</option>
+                    <option value="15:30" class="w-100 p-2"> 15:30</option>
+                    <option value="16:00" class="w-100 p-2"> 16:00</option>
+                    <option value="16:30" class="w-100 p-2"> 16:30</option>
+                    <option value="17:00" class="w-100 p-2"> 17:00</option>
+                    <option value="17:30" class="w-100 p-2"> 17:30</option>
+                    <option value="18:00" class="w-100 p-2"> 18:00</option>
+                  </select>
+              </div>
+              <div class="col-6  ">
+                  <button type="submit" class="w-100 book-item book-submit">BOOK A TABLE</button>
+              </div> 
+            </div>  
+          </form>        
+        </div>
+      </div>
+    </div>
+
+    
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Script by my self -->
+    <script src="./public/javascript/script.js"></script>
+  </body>
+</html>
