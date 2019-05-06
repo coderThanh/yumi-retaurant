@@ -47,6 +47,22 @@
     border-bottom: #ffa037 3px solid;
 }
 
+.navigation-web {
+    display: flex!important;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1050;
+    right: 0;
+}
+
+.navigation-web .dropdown-item, .navigation-web a.text-light {
+    transition: 0.3s;
+}
+.navigation-web .dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #ffa037;
+}
+
 .nav-logo, .nav-content {
     z-index: 10;
 }
@@ -215,6 +231,13 @@
     background: inherit;
 }
 
+.contact-title {
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+    padding-top: 1rem;
+    letter-spacing: 0.1rem;
+}
+
 .icon-border-circle {
     border: 1px solid rgba(108, 117, 125, 0.5);
     border-radius: 50%;
@@ -224,5 +247,10 @@
     justify-content: center;
     align-items: center;
     font-size: 13px;
+}
+
+/*============== Footer section ================ */
+.bg-footer {
+    background-color: rgb(36, 30, 32);
 }
 
